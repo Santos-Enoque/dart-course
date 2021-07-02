@@ -13,11 +13,11 @@ void main() {
 
   /**
    * ! Rules for naming variables
-   * - Variable name can consist of letter and alphabets.
-   * - Keywords are not allowed to use as a variable name.
+   * - Variable name can consist of letters and alphabets.
+   * - Keywords are not allowed to be used as a variable name.
    * - Blank spaces are not allowed in variable name.
    * - First character of variable should always be alphabet and cannot be digit.
-   * - Variable name are case sensitive
+   * - Variable names are case sensitive
    * - Special characters like #, $ are not allowed 
   */
 
