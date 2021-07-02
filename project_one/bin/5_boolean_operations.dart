@@ -1,7 +1,7 @@
 //! BOOLEAN OPERATIONS
 
 void main() {
-  //* bolean data type
+  //* boolean data type
 /*
 A Boolean value can have one of two states. true or false
 */
@@ -9,7 +9,7 @@ A Boolean value can have one of two states. true or false
 const yes = true;
 const no = false;
 
-//* bolean operators 
+//* boolean operators 
 /*
 Booleans are commonly used to compare values
 */
@@ -51,12 +51,12 @@ const isOneLesserOrEqualToTwo = (one <= two);
 const isOneGreaterOrEqualToTwo = (one >= two);
 
 print('Is one lesser or equal to two? $isOneLesserOrEqualToTwo \n');
-print('Is onw greater or equal to two? $isOneGreaterOrEqualToTwo \n');
+print('Is one greater or equal to two? $isOneGreaterOrEqualToTwo \n');
 
-//* Bolean logic
+//* Boolean logic
 /*
 Boolean Logic is a form of algebra which is centered 
-around three simple words known as Boolean 
+around three(3) simple words known as Boolean 
 Operators: “Or,” “And,” and “Not”
 
 At the heart of Boolean Logic is the idea that all 
@@ -74,7 +74,7 @@ const yesOrNo = (yes || no);
 print('AND of yes and no is: $yesOrNo');
 
 //* NOT operator (!)
-// The negation of a boolean expression is equal to
+// The negation of a Boolean expression is equal to
 // it's opposite value !true = false
 print('The oposite of true is: ${!true}');
 
