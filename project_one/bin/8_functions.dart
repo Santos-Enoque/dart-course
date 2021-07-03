@@ -82,12 +82,28 @@ void main(){
 
 }
 
+// ! Writting better function
+// maximixe the use of pure functions and minimize side-effects
+// functions with side-effect 
+void printHelloWorld(){
+  print('Hello world');
+}
 
+var age = 24;
+void displayName(String name){
+  age--;
+  print(name);
+}
 
+// functions with no side-effects
+String helloWorld(){
+  return 'Hello world';
+}
 
+String userName(String name){
+  return name;
+}
 
+// Do only one thing (SINGLE RESPONSIBILITY PRINCIPLE)
 
-
-
-
-
+// choosing good naming
