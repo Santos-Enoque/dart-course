@@ -1,5 +1,8 @@
-import '../3/3_data_types.dart';
+class User{
+  String? name;
+  int? id;
 
+}
 void main(){
   //* if null (??)
   String? name;
@@ -16,5 +19,18 @@ void main(){
   //* null-aware access (?.)
   // print(name.length);
   print(name?.length);
+
+  //* null assertation (!)
+  int? age;
+  int myAge = age!;
+
+  //* null-aware cascade (?..)
+  User? user;
+  user
+  ?..id = 12
+  ..name = 'Santos';
+
+  
+
 
 }
