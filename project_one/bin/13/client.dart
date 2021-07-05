@@ -3,7 +3,7 @@ class Client{
   String _name;
   double _accountBalance;
 
-  Client({int userId, String name, double balance}) : 
+  Client({int userId = 0, String name = '', double balance = 0}) : 
   assert(balance >= 0),
   _id = userId,
   _name = name,

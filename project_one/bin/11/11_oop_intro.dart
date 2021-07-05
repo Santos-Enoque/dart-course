@@ -24,8 +24,10 @@ an object is the actual house
 
 //* defining classes
 class Car {
-  String make;
-  String bodyType;
+  // the ? mark was added after we talked about null-safety
+  // if you face errors just dont include it
+  String? make;
+  String? bodyType;
 
   String toJson() {
     return '{"make":$make,"bodyType":"$bodyType"}';

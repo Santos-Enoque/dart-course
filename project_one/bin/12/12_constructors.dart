@@ -45,8 +45,8 @@ class Car {
   // required named parameter
   // Car((@required this.make,@required this.bodyType});
 
-   String make;
-   String bodyType;
+   String? make;
+   String? bodyType;
 
   String toJson() {
     return '{"make":$make,"bodyType":"$bodyType"}';

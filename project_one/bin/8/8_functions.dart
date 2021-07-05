@@ -38,7 +38,9 @@ void isEvenOrOdd(int value){
 }
 
 // optional parameter | with return
-String enterName(String firstName, [String lastName]){
+  // the ? mark was added after we talked about null-safety
+  // if you face errors just dont include it
+String enterName(String firstName, [String? lastName]){
   if (lastName == null) {
    return firstName;
   }else{
@@ -52,12 +54,14 @@ void enterprofileDetails(String name, [String position = 'student']){
 }
 
 // named parameter
-void editProfile({String newName, String newPassword}){
+void editProfile({String? newName, String? newPassword}){
   print('New name: $newName \n New password: $newPassword');
 }
 
 // mixed parameters
-void userDetails(String name, {String position}){
+  // the ? mark was added after we talked about null-safety
+  // if you face errors just dont include it
+void userDetails(String name, {String? position}){
   print('Name: $name \n Position: $position');
 }
 
