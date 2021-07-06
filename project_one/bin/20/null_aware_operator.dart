@@ -1,7 +1,6 @@
 class User{
   String? name;
   int? id;
-
 }
 void main(){
   //* if null (??)
