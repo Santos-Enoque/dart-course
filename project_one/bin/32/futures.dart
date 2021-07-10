@@ -48,13 +48,13 @@ Future<void> main() async{
 
   // Handling errors with try-catch blocks
   /*
-    try {
+  try {
 
-} catch (error) {
+ } catch (error) {
 
-} finally {
+ } finally {
 
-}
+ }
   */
 
   print('\nBefore the future');
