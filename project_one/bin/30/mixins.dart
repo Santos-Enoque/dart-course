@@ -1,4 +1,4 @@
-//! MIXINS
+//! MIXIN
 abstract class Bird {
 }
 

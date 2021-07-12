@@ -36,7 +36,7 @@ programmingLanguages.remove('javaScript');
   print(programmingLanguages);
 
 
-// muttable and imuttable list
+// mutable and immutable list
 final frameWorks = ['flutter', 'django', 'flask'];
 print(frameWorks);
 

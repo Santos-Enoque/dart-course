@@ -25,7 +25,7 @@ an object is the actual house
 //* defining classes
 class Car {
   // the ? mark was added after we talked about null-safety
-  // if you face errors just dont include it
+  // if you face errors just don't include it
   String? make;
   String? bodyType;
 
@@ -53,13 +53,13 @@ void main() {
   // printing an object with method override
   print(car);
 
-  //* object seriallization
+  //* object serialization
   /*
   Serialization is the process of converting a
   complex data object into a string. 
   */
 
-  // adding JSON seriallization
+  // adding JSON serialization
   print(car.toJson());
 
   //* cascade notation (..)

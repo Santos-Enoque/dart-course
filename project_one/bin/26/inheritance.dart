@@ -42,11 +42,11 @@ class Sedan extends Car{
   Sedan(String make, int productionYear) 
   : super(make, productionYear); 
 
-  double trunckSize = 0;
+  double trunkSize = 0;
 
   @override
   void printDetails() {
-    print('The ${super.productionYear} ${super.make} is a sedan with $trunckSize trunck size');
+    print('The ${super.productionYear} ${super.make} is a sedan with $trunkSize trunk size');
     }
 }
 
@@ -54,7 +54,7 @@ class Suv extends Car{
   Suv(String make, int productionYear) 
   : super(make, productionYear); 
 
-  double trunckSize = 0;
+  double trunkSize = 0;
 
   @override
   void printDetails() {
@@ -79,8 +79,8 @@ void main(){
   truck.bedSize = 300;
   print('the bedsize of the ${truck.make} is ${truck.bedSize}');
 
-  // overring methods
-  sedan.trunckSize = 234;
+  // overriding methods
+  sedan.trunkSize = 234;
   sedan.printDetails();
 
   // adding functionality to an override

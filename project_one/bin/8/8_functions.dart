@@ -9,13 +9,13 @@ var result2 = 23 + 21;
 
 var result3 = 90 + 1;
 
-// DRY (Dont repeat yourself)
+// DRY (don't repeat yourself)
 // Here is the basic workflow of a function
 // input -> function (do something) -> output
 
 /*
 ! syntax
-returntype functionNamme (inputs){
+returnType functionName (inputs){
   code
   ...
   return a result;
@@ -39,7 +39,7 @@ void isEvenOrOdd(int value){
 
 // optional parameter | with return
   // the ? mark was added after we talked about null-safety
-  // if you face errors just dont include it
+  // if you face errors just don't include it
 String enterName(String firstName, [String? lastName]){
   if (lastName == null) {
    return firstName;
@@ -49,7 +49,7 @@ String enterName(String firstName, [String? lastName]){
 }
 
 // default values
-void enterprofileDetails(String name, [String position = 'student']){
+void enterProfileDetails(String name, [String position = 'student']){
   print('Name: $name \n Position: $position');
 }
 
@@ -60,7 +60,7 @@ void editProfile({String? newName, String? newPassword}){
 
 // mixed parameters
   // the ? mark was added after we talked about null-safety
-  // if you face errors just dont include it
+  // if you face errors just don't include it
 void userDetails(String name, {String? position}){
   print('Name: $name \n Position: $position');
 }
@@ -77,8 +77,8 @@ void main(){
   print(enterName('Santos'));
   print(enterName('Santos', 'Enoque'));
 
-  enterprofileDetails('Ssantos');
-  enterprofileDetails('Santos', 'Developer');
+  enterProfileDetails('Santos');
+  enterProfileDetails('Santos', 'Developer');
 
   editProfile(newName: 'Santos', newPassword: '123abc');
 
@@ -86,8 +86,8 @@ void main(){
 
 }
 
-// ! Writting better function
-// maximixe the use of pure functions and minimize side-effects
+// ! Writing better function
+// maximize the use of pure functions and minimize side-effects
 // functions with side-effect 
 void printHelloWorld(){
   print('Hello world');

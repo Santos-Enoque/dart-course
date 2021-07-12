@@ -1,4 +1,4 @@
-//! ASYNCHRONOUS PROGRAAMMING
+//! ASYNCHRONOUS PROGRAMMING
 /*
   Asynchrony, in computer programming, 
   refers to the occurrence of events independent of 

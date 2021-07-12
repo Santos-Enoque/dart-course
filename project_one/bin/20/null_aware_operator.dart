@@ -5,21 +5,21 @@ class User{
 void main(){
   //* if null (??)
   String? name;
-  String usernName = name ?? 'default name';
-  print(usernName);
+  String userName = name ?? 'default name';
+  print(userName);
 
   //* null-aware assignment (??=)
   double? price;
-  // double amoutToPay = price ?? 0;
+  // double amountToPay = price ?? 0;
   price ??= 0;
-  double amoutToPay = price;
-  print('Amount to pay is $amoutToPay');
+  double amountToPay = price;
+  print('Amount to pay is $amountToPay');
 
   //* null-aware access (?.)
   // print(name.length);
   print(name?.length);
 
-  //* null assertation (!)
+  //* null assertion (!)
   int? age;
   int myAge = age!;
 

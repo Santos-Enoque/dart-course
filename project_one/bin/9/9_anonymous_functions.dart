@@ -43,8 +43,8 @@ void main(){
     return 'Hello there!';
   });
 
-  var tripple = applyMultiplier(3);
-  print('the tripple of 4 is ${tripple(4)}');
+  var triple = applyMultiplier(3);
+  print('the triple of 4 is ${triple(4)}');
 
   // anonymous functions in a forEach loop
   const values = [2, 3, 4, 5];

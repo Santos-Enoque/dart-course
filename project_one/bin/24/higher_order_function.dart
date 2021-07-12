@@ -4,15 +4,15 @@
 void main(){
   //* mapping over a collection (map)
 final numbers = [1, 2, 3, 4, 5, 6, 7];
-final tripple = numbers.map((element) => element * 3);
-print(tripple);
-print('to print a list ${tripple.toList()}');
+final triple = numbers.map((element) => element * 3);
+print(triple);
+print('to print a list ${triple.toList()}');
 
 //* filtering a collection
 final evens = numbers.where((element) => element.isEven);
 print(evens);
 
-//* concolidating a collection
+//* consolidating a collection
 // reduce
 const amounts = [199, 299, 299, 199, 499];
 final total = amounts.reduce((sum, element) => sum + element);
@@ -42,7 +42,7 @@ final desserts = ['cookies', 'pie', 'donuts', 'brownies'];
 desserts.sort();
 print(desserts);
 
-// combining higer order methods
+// combining higher order methods
 final bigTallDesserts = desserts
     .where((dessert) => dessert.length > 5)
     .map((dessert) => dessert.toUpperCase());
